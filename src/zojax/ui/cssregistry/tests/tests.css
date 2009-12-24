@@ -1,0 +1,6 @@
+/* zrt-cssregistry: */
+
+h1 {
+  color: fontColor;
+  background-color: globalBackgroundColor;
+}

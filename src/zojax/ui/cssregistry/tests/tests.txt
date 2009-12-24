@@ -1,0 +1,70 @@
+=====================
+CSSRegistry configlet
+=====================
+
+    >>> import os
+    >>> from zope import component, interface
+    >>> from zope.app.component.hooks import setSite
+    >>> from zope.testbrowser.testing import Browser
+    >>> from zope.app.testing.functional import getRootFolder
+    >>> from zojax.ui.cssregistry.tests import tests
+
+    >>> setSite(getRootFolder())
+
+Default values
+
+    >>> filePath = os.path.join(os.path.split(tests.__file__)[0], 'tests.css')
+
+    >>> from z3c.zrtresource.zrtresource import ZRTFileResourceFactory
+    >>> cssFactory = ZRTFileResourceFactory(filePath, None, 'tests.css')
+
+    >>> from zope.publisher.browser import TestRequest
+    >>> css = cssFactory(TestRequest())
+    >>> print css.GET()
+    h1 {
+      color: #252525;
+      background-color: #E2EFFC;
+    }
+
+
+Change cssregistry
+
+    >>> admin = Browser()
+    >>> admin.handleErrors = False
+    >>> admin.addHeader("Authorization", "Basic mgr:mgrpw")
+
+    >>> admin.open('http://localhost/settings/')
+    >>> admin.getLink('CSS Properties').click()
+
+Update properties
+
+    >>> admin.getControl(name="registry:int").value = ['0']
+    >>> admin.getControl(name="form.copy").click()
+
+
+Change property and enable registry
+
+    >>> admin.getControl(name="form.enabled").value = ['yes']
+    >>> admin.getControl(name='prop-fontColor').value = 'red'
+    >>> admin.getControl(name='prop-globalBackgroundColor').value = 'blue'
+    >>> admin.getControl(name="form.save").click()
+
+Render css
+
+    >>> print css.GET()
+    h1 {
+      color: red;
+      background-color: blue;
+    }
+
+Disable registry
+
+    >>> admin.getControl(name="form.enabled").value = ['no']
+    >>> admin.getControl(name="form.save").click()
+
+    >>> print css.GET()
+    h1 {
+      color: #252525;
+      background-color: #E2EFFC;
+    }
+

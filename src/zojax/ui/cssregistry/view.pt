@@ -1,0 +1,103 @@
+<form method="post" action="@@index.html" class="z-form"
+      i18n:domain="zojax.cssregistry">
+  <div class="z-topframe" tal:define="props context/keys">
+    <h1 tal:content="context/__title__">Portal CSS properties</h1>
+    <div class="z-page-description" tal:content="context/__description__"></div>
+
+    <div class="z-form-field">
+      <label i18n:translate="">Status</label>
+      <div>
+	<select name="form.enabled">
+	  <option value="yes"
+		  tal:attributes="selected context/enabled" i18n:translate="">
+	    Enabled
+	  </option>
+	  <option value="no"
+		  tal:attributes="selected not:context/enabled"
+		  i18n:translate="">
+	    Disabled
+	  </option>
+	</select>
+      </div>
+    </div>
+    <br />
+    
+    <tal:block tal:condition="props">
+      <h2 i18n:translate="">Properties</h2>
+      
+      <table class="z-content-listing">
+	<tr>
+	  <th>&nbsp;</th>
+	  <th i18n:translate="">Property</th>
+	  <th i18n:translate="">Value</th>
+	</tr>
+	<tr tal:repeat="prop props"
+	    tal:attributes="class python:repeat['prop'].even() and 'even' or 'odd'">
+	  <td><input type="checkbox" name="property:list"
+		     tal:attributes="value prop" /></td>
+	  <td tal:content="python:context[prop].title or prop"></td>
+	  <td><input type="text"
+		     tal:attributes="name string:prop-$prop;
+				     value python:context[prop].value" /></td>
+	</tr>
+      </table>
+      <div class="z-form-controls">
+	<input type="submit" class="z-form-savebutton"
+               name="form.save" value="Save" i18n:attributes="value" />
+	<input type="submit" class="z-form-removebutton"
+               name="form.remove" value="Remove" i18n:attributes="value" />
+      </div>
+    </tal:block>
+    
+    <tal:block tal:condition="not:props" i18n:translate="">
+      There are no defined properties.
+    </tal:block>
+  </div>
+  
+  <div class="z-frame">
+    <h2 i18n:translate="">Add property</h2>
+    
+    <div class="z-form-field">
+      <label i18n:translate="">Property name</label>
+      
+      <div>
+	<input type="text" name="form.add.name" />
+      </div>
+    </div>
+    
+    <div class="z-form-field">
+      <label i18n:translate="">Value</label>
+      
+      <div>
+	<input type="text" name="form.add.value" />
+      </div>
+    </div>
+    
+    <div class="z-form-controls">
+      <input type="submit" class="z-form-addbutton"
+	     name="form.add" value="Add" i18n:attributes="value" />
+    </div>
+  </div>
+  
+  <div class="z-frame"
+       tal:define="regs view/listRegistries" tal:condition="regs">
+    <h2 i18n:translate="">Copy/Update properties from existent registries</h2>
+    <div>&nbsp;</div>
+    
+    <div class="z-form-field">
+      <label i18n:translate="">Registry</label>
+      <div></div>
+      <select name="registry:int">
+	<option tal:repeat="reg regs"
+		tal:attributes="value python:repeat['reg'].index()"
+		tal:content="string:${reg/name} (${reg/layer})"></option>
+      </select>
+    </div>
+    <div class="z-form-controls">
+      <input type="submit" class="z-form-button" name="form.copy"
+	     value="Copy" i18n:attributes="value" />
+      <!--input type="submit" class="z-form-standalonebtn" name="form.update"
+	  value="Update" i18n:attributes="value" /-->
+    </div>
+  </div>
+</form>
