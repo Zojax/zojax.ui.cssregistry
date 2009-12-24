@@ -1,0 +1,153 @@
+# #############################################################################
+#
+# Copyright (c) 2009 Zope Foundation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+# #############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Tue Oct 28 21:28:43 2008\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Nikolay Kim <fafhrd91@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: src/zojax/cssregistry/configlet.zcml:11
+msgid "CSS Properties"
+msgstr "Свойства CSS"
+
+#: src/zojax/cssregistry/configlet.zcml:11
+msgid "CSS properties registry configuration."
+msgstr "Конфигурация реестра css свойств."
+
+#: src/zojax/cssregistry/configletview.pt:15
+msgid "Disabled"
+msgstr "Отключено"
+
+#: src/zojax/cssregistry/configletview.pt:25
+msgid "Properties"
+msgstr "Свойства"
+
+#: src/zojax/cssregistry/configletview.pt:30
+msgid "Property"
+msgstr "Свойство"
+
+#: src/zojax/cssregistry/configletview.pt:44
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/zojax/cssregistry/configletview.pt:46
+msgid "Remove"
+msgstr "Удалить"
+
+#: src/zojax/cssregistry/configletview.pt:51
+msgid "There are no any defined properties."
+msgstr "Свойства неопределены."
+
+#: src/zojax/cssregistry/configletview.pt:57
+msgid "Add property"
+msgstr "Добавить свойство"
+
+#: src/zojax/cssregistry/configletview.pt:76
+msgid "Add"
+msgstr "Добавить"
+
+#: src/zojax/cssregistry/configletview.pt:8
+msgid "Status"
+msgstr "Статус"
+
+#: src/zojax/cssregistry/configletview.pt:83
+msgid "Copy/Update properties from existent registries"
+msgstr "Копировать/Обновить свойства из существующих реестров"
+
+#: src/zojax/cssregistry/configletview.pt:87
+msgid "Registry"
+msgstr "Реестр"
+
+#: src/zojax/cssregistry/configletview.pt:96
+msgid "Copy"
+msgstr "Копировать"
+
+#: src/zojax/cssregistry/configletview.py:36
+msgid "Without name"
+msgstr "Без имени"
+
+#: src/zojax/cssregistry/configletview.py:55
+msgid "CSS Registry has been copied."
+msgstr "CSS Реестр скопирован."
+
+#: src/zojax/cssregistry/configletview.py:61
+msgid "Can't add property with emtpy name."
+msgstr "Не возможно добавить свойство без имени."
+
+#: src/zojax/cssregistry/configletview.py:69
+msgid "Properties have been removed."
+msgstr "Свойства удалены."
+
+#: src/zojax/cssregistry/configletview.py:86
+msgid "Properties have been changed."
+msgstr "Свойства изменены."
+
+#: src/zojax/cssregistry/interfaces.py:30
+#: src/zojax/cssregistry/interfaces.py:45
+msgid "Name"
+msgstr "Имя"
+
+#: src/zojax/cssregistry/interfaces.py:31
+msgid "CSS Registry name"
+msgstr "Имя CSS Реестра"
+
+#: src/zojax/cssregistry/interfaces.py:36
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/zojax/cssregistry/interfaces.py:37
+msgid "CSS Registry title"
+msgstr "Заголовок CSS реестра"
+
+#: src/zojax/cssregistry/interfaces.py:46
+#: src/zojax/cssregistry/configletview.pt:60
+msgid "Property name"
+msgstr "Имя свойства"
+
+#: src/zojax/cssregistry/interfaces.py:50
+msgid "Description"
+msgstr "Описание"
+
+#: src/zojax/cssregistry/interfaces.py:51
+msgid "Property description"
+msgstr "Описаник свойства"
+
+#: src/zojax/cssregistry/interfaces.py:55
+#: src/zojax/cssregistry/configletview.pt:31
+#: src/zojax/cssregistry/configletview.pt:68
+msgid "Value"
+msgstr "Значение"
+
+#: src/zojax/cssregistry/interfaces.py:56
+msgid "Property value"
+msgstr "Знячение свойства"
+
+#: src/zojax/cssregistry/interfaces.py:60
+msgid "Type"
+msgstr "Тип"
+
+#: src/zojax/cssregistry/interfaces.py:61
+msgid "Property type. (color, font, size)"
+msgstr "Тип свойства. (color, font, size)"
+
+#: src/zojax/cssregistry/interfaces.py:82
+#: src/zojax/cssregistry/configletview.pt:11
+msgid "Enabled"
+msgstr "Включить"

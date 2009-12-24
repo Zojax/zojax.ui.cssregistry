@@ -1,0 +1,153 @@
+# #############################################################################
+#
+# Copyright (c) 2009 Zope Foundation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+# #############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Tue Oct 28 21:28:43 2008\n"
+"PO-Revision-Date: 2008-10-28 11:19+0100\n"
+"Last-Translator: F. Kooman <fkooman@tuxed.net>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: src/zojax/cssregistry/configlet.zcml:11
+msgid "CSS Properties"
+msgstr "Lettertypen/kleuren aanpassen"
+
+#: src/zojax/cssregistry/configlet.zcml:11
+msgid "CSS properties registry configuration."
+msgstr "Lettertypen -en kleurenregisterconfiguratie"
+
+#: src/zojax/cssregistry/configletview.pt:15
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: src/zojax/cssregistry/configletview.pt:25
+msgid "Properties"
+msgstr "Eigenschappen"
+
+#: src/zojax/cssregistry/configletview.pt:30
+msgid "Property"
+msgstr "Eigenschap"
+
+#: src/zojax/cssregistry/configletview.pt:44
+msgid "Save"
+msgstr "Opslaan"
+
+#: src/zojax/cssregistry/configletview.pt:46
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: src/zojax/cssregistry/configletview.pt:51
+msgid "There are no any defined properties."
+msgstr "Er zijn geen gedefinieerde eigenschappen."
+
+#: src/zojax/cssregistry/configletview.pt:57
+msgid "Add property"
+msgstr "Eigenschap toevoegen"
+
+#: src/zojax/cssregistry/configletview.pt:76
+msgid "Add"
+msgstr "Toevoegen"
+
+#: src/zojax/cssregistry/configletview.pt:8
+msgid "Status"
+msgstr "Status"
+
+#: src/zojax/cssregistry/configletview.pt:83
+msgid "Copy/Update properties from existent registries"
+msgstr "Kopieer/Update eigenschappen van bestaande registers"
+
+#: src/zojax/cssregistry/configletview.pt:87
+msgid "Registry"
+msgstr "Register"
+
+#: src/zojax/cssregistry/configletview.pt:96
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: src/zojax/cssregistry/configletview.py:36
+msgid "Without name"
+msgstr "Zonder naam"
+
+#: src/zojax/cssregistry/configletview.py:55
+msgid "CSS Registry has been copied."
+msgstr "Lettertypen -en kleurenregister is gekopieerd."
+
+#: src/zojax/cssregistry/configletview.py:61
+msgid "Can't add property with emtpy name."
+msgstr "Kan geen eigenschap zonder naam toevoegen."
+
+#: src/zojax/cssregistry/configletview.py:69
+msgid "Properties have been removed."
+msgstr "Eigenschappen zijn verwijderd."
+
+#: src/zojax/cssregistry/configletview.py:86
+msgid "Properties have been changed."
+msgstr "Eigenschappen zijn gewijzigd."
+
+#: src/zojax/cssregistry/interfaces.py:30
+#: src/zojax/cssregistry/interfaces.py:45
+msgid "Name"
+msgstr "Naam"
+
+#: src/zojax/cssregistry/interfaces.py:31
+msgid "CSS Registry name"
+msgstr "Lettertypen -en kleurenregisternaam"
+
+#: src/zojax/cssregistry/interfaces.py:36
+msgid "Title"
+msgstr "Titel"
+
+#: src/zojax/cssregistry/interfaces.py:37
+msgid "CSS Registry title"
+msgstr "Lettertypen -en kleurenregistertitel"
+
+#: src/zojax/cssregistry/interfaces.py:46
+#: src/zojax/cssregistry/configletview.pt:60
+msgid "Property name"
+msgstr "Eigenschapsnaam"
+
+#: src/zojax/cssregistry/interfaces.py:50
+msgid "Description"
+msgstr "Omschrijving"
+
+#: src/zojax/cssregistry/interfaces.py:51
+msgid "Property description"
+msgstr "Omschrijving van eigenschap"
+
+#: src/zojax/cssregistry/interfaces.py:55
+#: src/zojax/cssregistry/configletview.pt:31
+#: src/zojax/cssregistry/configletview.pt:68
+msgid "Value"
+msgstr "Waarde"
+
+#: src/zojax/cssregistry/interfaces.py:56
+msgid "Property value"
+msgstr "Waarde van eigenschap"
+
+#: src/zojax/cssregistry/interfaces.py:60
+msgid "Type"
+msgstr "Type"
+
+#: src/zojax/cssregistry/interfaces.py:61
+msgid "Property type. (color, font, size)"
+msgstr "Eigenschaptype. (kleur, lettertype, grootte)"
+
+#: src/zojax/cssregistry/interfaces.py:82
+#: src/zojax/cssregistry/configletview.pt:11
+msgid "Enabled"
+msgstr "Ingeschakeld"

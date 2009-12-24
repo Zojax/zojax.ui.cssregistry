@@ -1,0 +1,44 @@
+=======
+CHANGES
+=======
+
+1.0.5 (Unreleased)
+------------------
+
+
+1.0.4 (2009-10-05)
+------------------
+
+- Fixed typo
+
+
+1.0.3 (2009-08-31)
+------------------
+
+- Send ObjectMoifiedEvent in edit form
+
+
+1.0.2 (2009-08-12)
+------------------
+
+- Update tests
+
+
+1.0.1 (2009-06-25)
+------------------
+
+- Do not use z3c.autoinclude
+
+- Copyright changed to 'Zope Foundation and Contributors'
+
+
+1.0.0 (2008-12-18)
+------------------
+
+- Use zojax:pagelet instead of browser:page for all views
+
+
+0.99.0 (2008-11-25)
+-------------------
+
+- Moved zojax.controlpanel related code to separete package
