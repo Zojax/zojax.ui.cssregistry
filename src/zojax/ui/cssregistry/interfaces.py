@@ -19,7 +19,7 @@ from zope import schema, interface
 from zope.i18nmessageid import MessageFactory
 from zojax.cssregistry.interfaces import ICSSRegistry
 
-_ = MessageFactory('zojax.cssregistry')
+_ = MessageFactory('zojax.ui.cssregistry')
 
 
 class ICSSRegistryConfiglet(ICSSRegistry):

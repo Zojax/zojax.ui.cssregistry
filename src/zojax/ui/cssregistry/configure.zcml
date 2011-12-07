@@ -2,7 +2,7 @@
    xmlns="http://namespaces.zope.org/zope"
    xmlns:i18n="http://namespaces.zope.org/i18n"
    xmlns:zojax="http://namespaces.zope.org/zojax"
-   i18n_domain="zojax.cssregistry">
+   i18n_domain="zojax.ui.cssregistry">
 
   <zojax:configlet
      name="ui.cssregistry"

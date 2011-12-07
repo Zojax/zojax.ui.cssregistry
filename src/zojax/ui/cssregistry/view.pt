@@ -1,7 +1,7 @@
 <form method="post" action="@@index.html" class="z-form"
-      i18n:domain="zojax.cssregistry">
+      i18n:domain="zojax.ui.cssregistry">
   <div class="z-topframe" tal:define="props context/keys">
-    <h1 tal:content="context/__title__">Portal CSS properties</h1>
+    <h1 tal:content="context/__title__" i18n:translate="">Portal CSS properties</h1>
     <div class="z-page-description" tal:content="context/__description__"></div>
 
     <div class="z-form-field">
