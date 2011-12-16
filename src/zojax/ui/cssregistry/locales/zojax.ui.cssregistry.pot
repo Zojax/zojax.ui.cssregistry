@@ -1,0 +1,107 @@
+##############################################################################
+#
+# Copyright (c) 2003-2004 Zope Corporation and Contributors.
+# All Rights Reserved.
+#
+# This software is subject to the provisions of the Zope Public License,
+# Version 2.1 (ZPL).  A copy of the ZPL should accompany this distribution.
+# THIS SOFTWARE IS PROVIDED "AS IS" AND ANY AND ALL EXPRESS OR IMPLIED
+# WARRANTIES ARE DISCLAIMED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF TITLE, MERCHANTABILITY, AGAINST INFRINGEMENT, AND FITNESS
+# FOR A PARTICULAR PURPOSE.
+#
+##############################################################################
+msgid ""
+msgstr ""
+"Project-Id-Version: Development/Unknown\n"
+"POT-Creation-Date: Sun Dec 11 10:42:22 2011\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Zope 3 Developers <zope3-dev@zope.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: zope/app/locales/extract.py\n"
+
+#: src/zojax/ui/cssregistry/interfaces.py:29
+#: src/zojax/ui/cssregistry/view.pt:11
+msgid "Enabled"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:15
+msgid "Disabled"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:26
+msgid "Properties"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:31
+msgid "Property"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:32
+#: src/zojax/ui/cssregistry/view.pt:69
+msgid "Value"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:45
+msgid "Save"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:47
+msgid "Remove"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:52
+msgid "There are no defined properties."
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:58
+msgid "Add property"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:61
+msgid "Property name"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:77
+msgid "Add"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:8
+msgid "Status"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:84
+msgid "Copy/Update properties from existent registries"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:88
+msgid "Registry"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.pt:97
+msgid "Copy"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.py:38
+msgid "Without name"
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.py:60
+msgid "CSS Registry has been copied."
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.py:66
+msgid "Can't add property with emtpy name."
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.py:77
+msgid "Properties have been removed."
+msgstr ""
+
+#: src/zojax/ui/cssregistry/view.py:96
+msgid "Properties have been changed."
+msgstr ""
+
